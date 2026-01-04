@@ -80,17 +80,17 @@ namespace LiteDB.Studio.Avalonia.ItemModels
             {
                 return new()
                 {
-                    // 比较符
+                    // Comparison operators
                     new SqlWordCompletionData("AND"),
                     new SqlWordCompletionData("OR"),
                     new SqlWordCompletionData("LIKE"),
                     new SqlWordCompletionData("BETWEEN"),
                     new SqlWordCompletionData("IN"),
-                    // 值关键字
+                    // Value keywords
                     new SqlWordCompletionData("TRUE"),
                     new SqlWordCompletionData("FALSE"),
                     new SqlWordCompletionData("NULL"),
-                    // SQL主关键字
+                    // SQL main keywords
                     new SqlWordCompletionData("BEGIN"),
                     new SqlWordCompletionData("COMMIT"),
                     new SqlWordCompletionData("ROLLBACK"),
@@ -137,7 +137,7 @@ namespace LiteDB.Studio.Avalonia.ItemModels
                     new SqlWordCompletionData("MAP"),
                     new SqlWordCompletionData("FILTER"),
                     new SqlWordCompletionData("SORT"),
-                    // SQL函数/方法
+                    // SQL functions/methods
                     new SqlWordCompletionData("USER_VERSION"),
                     new SqlWordCompletionData("COLLATION"),
                     new SqlWordCompletionData("TIMEOUT"),

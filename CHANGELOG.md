@@ -1,7 +1,7 @@
-## 更新日志
+## Changelog
 
 ### 2025-08-28
 
-1. 添加方法注解
-2. 初始化提交代码
-3. 添加 README.md
+1. Add method annotations
+2. Initial code commit
+3. Add README.md

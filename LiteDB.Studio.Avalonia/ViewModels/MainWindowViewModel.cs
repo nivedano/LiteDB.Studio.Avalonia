@@ -68,7 +68,7 @@ namespace LiteDB.Studio.Avalonia.ViewModels
         private bool _isConnOnAppStart = false;
 
         /// <summary>
-        /// 数据库是否连接上
+        /// Whether the database is connected.
         /// </summary>
         [ObservableProperty]
         private bool _isDbConnected = false;
@@ -130,7 +130,7 @@ namespace LiteDB.Studio.Avalonia.ViewModels
                 }
             }
 
-            // 处理History
+            // Load history
             await RefreshHistory();
             initLoading = false;
         }
@@ -955,10 +955,10 @@ namespace LiteDB.Studio.Avalonia.ViewModels
                 IsBusy = false;
                 return;
             }
-            // 打开文件的写入流。
+            // Open a writable file stream.
             await using var stream = await file.OpenWriteAsync();
             using var streamWriter = new StreamWriter(stream);
-            // 将一些内容写入文件。
+            // Write content to the file.
             await streamWriter.WriteAsync(txt_sql.Text);
             IsBusy = false;
         }
@@ -1016,7 +1016,7 @@ namespace LiteDB.Studio.Avalonia.ViewModels
                 var psi = new ProcessStartInfo
                 {
                     FileName = url,
-                    UseShellExecute = true   // 必须为 true，否则会尝试直接执行
+                    UseShellExecute = true   // Must be true; otherwise it may try to execute directly.
                 };
                 Process.Start(psi);
             }
@@ -1042,7 +1042,7 @@ namespace LiteDB.Studio.Avalonia.ViewModels
                 return;
             }
             await Task.Delay(10);
-            // 暂不支持多库，清理上一个数据库
+            // Multi-database is not supported yet; clear previous database tree.
             DbItems.Clear();
             var dbItem = GetDbNode();
             dbItem.Items.Add(GetSystemNode());

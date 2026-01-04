@@ -1,8 +1,8 @@
 # LiteDB.Studio.Avalonia
 
-## 涉及使用开源框架
+## Open-source dependencies
 
-框架版本：.NET 8
+Target framework: .NET 8
 
 1. BouncyCastle.Crypto
 2. Newtonsoft.Json
@@ -13,13 +13,13 @@
 7. Serilog
 8. Svg.Controls.Skia.Avalonia
 
-## 开发
+## Development
 
-### 需求描述
+### Requirements
 
-- [x] 跨平台
+- [x] Cross-platform
 
-### 软件运行环境
+### Runtime environments
 
 - [x] Windows 10
 - [x] Windows 11
@@ -27,28 +27,30 @@
 
 ## 运行效果
 
+## Screenshots
+
 ### Windows 11
 
-![Windows运行效果](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/win_1.png)
+![Windows screenshot](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/win_1.png)
 
-![Windows运行效果](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/win_2.png)
+![Windows screenshot](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/win_2.png)
 
-![Windows运行效果](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/win_3.png)
+![Windows screenshot](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/win_3.png)
 
-![Windows运行效果](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/win_4.png)
+![Windows screenshot](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/win_4.png)
 
-![Windows运行效果](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/win_5.png)
+![Windows screenshot](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/win_5.png)
 
 ### Linux(Deepin 23)
 
-![Linux运行效果](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/linux_1.png)
+![Linux screenshot](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/linux_1.png)
 
-![Linux运行效果](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/linux_2.png)
+![Linux screenshot](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/linux_2.png)
 
-![Linux运行效果](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/linux_3.png)
+![Linux screenshot](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/linux_3.png)
 
-![Linux运行效果](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/linux_4.png)
+![Linux screenshot](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/linux_4.png)
 
-![Linux运行效果](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/linux_5.png)
+![Linux screenshot](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/linux_5.png)
 
-![Linux运行效果](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/linux_6.png)
+![Linux screenshot](https://gitee.com/haozekang/LiteDB.Studio.Avalonia/raw/master/imgs/linux_6.png)

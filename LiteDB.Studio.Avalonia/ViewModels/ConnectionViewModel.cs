@@ -71,7 +71,7 @@ namespace LiteDB.Studio.Avalonia.ViewModels
             }
             var files = await App.MainWindow.StorageProvider.OpenFilePickerAsync(new FilePickerOpenOptions()
             {
-                Title = "请选择文件",
+                Title = "Select a file",
                 FileTypeFilter = [FilePickerFileTypes.All],
                 AllowMultiple = false,
             });

@@ -4,8 +4,8 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	xmlns:dialogHostAvalonia="clr-namespace:DialogHostAvalonia;assembly=DialogHost.Avalonia"
     xmlns:local="using:LiteDB.Studio.Avalonia"
-    RequestedThemeVariant="Default">
-    <!--  "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options.  -->
+    RequestedThemeVariant="Light">
+    <!-- "Default" follows system theme. "Dark" or "Light" are other available options. -->
 
     <Application.DataTemplates>
         <local:ViewLocator />
@@ -23,9 +23,9 @@
 		<StyleInclude Source="avares://DialogHost.Avalonia/Styles.xaml"/>
 
         <Style Selector="TreeViewItem">
-            <!--  默认大约 MinHeight=32，可以改小  -->
+            <!-- Default is roughly MinHeight=32; shrink it a bit. -->
             <Setter Property="MinHeight" Value="22" />
-            <!--  上下 Padding 也可以缩小  -->
+            <!-- Reduce vertical padding as well. -->
             <Setter Property="Padding" Value="4 2 4 2" />
         </Style>
 
